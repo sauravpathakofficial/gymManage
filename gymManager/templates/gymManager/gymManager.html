@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Management</title>
+    <style>
+        body {
+          background-color: whitesmoke;
+        }
+        
+        h2{
+            color:black;
+          margin: 0px 550px 100px ;
+        }
+        h1 {
+          color:black;
+          margin: 0px 550px ;
+           font-size: 3em;
+        }
+        a{
+            display: block;
+            margin: 0px 550px;
+            padding: 10px;
+        }
+        button{
+            margin: auto;
+
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gym management </h1>
+        <a href="/">
+            <Button>
+                Home
+            </Button>
+        </a>
+        <br>
+        <a href="\createGymMembership">
+            <Button>
+                Create Gym Membership
+            </Button>
+        </a>
+        <br>
+        <a href="\createGymMember">
+            <Button>
+               Create  Gym Members
+            </Button>
+        </a>
+        <br>
+        <a href="\member">
+            <Button>
+            Show Members
+            </Button>
+        </a>
+        <br>
+        <a href="\membership">
+            <Button>
+               Show Membership
+            </Button>
+        </a>
+        <br>
+
+
+        <h2>Call localhost:8000/updateGymMembership/id for updating Gym Membership Details    </h2>
+
+        <h2>Call localhost:8000/updateGymMember/id for updating Gym Member Details    </h2>
+    </div>
+   
+
+</body>
+</html>

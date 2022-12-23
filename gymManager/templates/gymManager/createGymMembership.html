@@ -1,0 +1,10 @@
+<form method="POST" action="{% url 'gymManage:createGymMembership'  %}" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form}}
+    <button type="submit">Submit</button>
+</form>
+<a href="/">
+    <Button>
+        Home
+    </Button>
+</a>

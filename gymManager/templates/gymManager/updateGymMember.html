@@ -1,0 +1,27 @@
+<h1>Update Gym members Data  </h1>
+
+<form action="updaterecord/{{ mymember.id }}" method="post">
+{% csrf_token %}
+Name:<br>
+<input name="name" value="{{ mymember.name }}">
+<br><br>
+Phone No :<br>
+<input name="phone" value="{{ mymember.phone }}">
+<br><br>
+Time:<br>
+<input name="email" value="{{ mymember.email }}">
+<br><br>
+<br><br>
+Membership:<br>
+<input name="membership" value="{{ mymember.membership}}">
+<br><br>
+
+<input type="submit" value="Submit">
+</form>
+
+<a href="/">
+    <Button>
+        Home
+    </Button>
+</a>
+
